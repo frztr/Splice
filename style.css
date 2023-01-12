@@ -1,0 +1,487 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("font/Roboto-Black.eot");
+  src: url("font/Roboto-Black.eot?#iefix") format("embedded-opentype"),
+    url("font/Roboto-Black.woff2") format("woff2"),
+    url("font/Roboto-Black.woff") format("woff"),
+    url("font/Roboto-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("font/Roboto-Light.eot");
+  src: url("font/Roboto-Light.eot?#iefix") format("embedded-opentype"),
+    url("font/Roboto-Light.woff2") format("woff2"),
+    url("font/Roboto-Light.woff") format("woff"),
+    url("font/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("font/Roboto-Italic.eot");
+  src: url("font/Roboto-Italic.eot?#iefix") format("embedded-opentype"),
+    url("font/Roboto-Italic.woff2") format("woff2"),
+    url("font/Roboto-Italic.woff") format("woff"),
+    url("font/Roboto-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("font/Roboto-Bold.eot");
+  src: url("font/Roboto-Bold.eot?#iefix") format("embedded-opentype"),
+    url("font/Roboto-Bold.woff2") format("woff2"),
+    url("font/Roboto-Bold.woff") format("woff"),
+    url("font/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("font/Roboto-BoldItalic.eot");
+  src: url("font/Roboto-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("font/Roboto-BoldItalic.woff2") format("woff2"),
+    url("font/Roboto-BoldItalic.woff") format("woff"),
+    url("font/Roboto-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("font/Roboto-BlackItalic.eot");
+  src: url("font/Roboto-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("font/Roboto-BlackItalic.woff2") format("woff2"),
+    url("font/Roboto-BlackItalic.woff") format("woff"),
+    url("font/Roboto-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("font/Roboto-ThinItalic.eot");
+  src: url("font/Roboto-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("font/Roboto-ThinItalic.woff2") format("woff2"),
+    url("font/Roboto-ThinItalic.woff") format("woff"),
+    url("font/Roboto-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("font/Roboto-Regular.eot");
+  src: url("font/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+    url("font/Roboto-Regular.woff2") format("woff2"),
+    url("font/Roboto-Regular.woff") format("woff"),
+    url("font/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("font/Roboto-Medium.eot");
+  src: url("font/Roboto-Medium.eot?#iefix") format("embedded-opentype"),
+    url("font/Roboto-Medium.woff2") format("woff2"),
+    url("font/Roboto-Medium.woff") format("woff"),
+    url("font/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("font/Roboto-LightItalic.eot");
+  src: url("font/Roboto-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("font/Roboto-LightItalic.woff2") format("woff2"),
+    url("font/Roboto-LightItalic.woff") format("woff"),
+    url("font/Roboto-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("font/Roboto-Thin.eot");
+  src: url("font/Roboto-Thin.eot?#iefix") format("embedded-opentype"),
+    url("font/Roboto-Thin.woff2") format("woff2"),
+    url("font/Roboto-Thin.woff") format("woff"),
+    url("font/Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("font/Roboto-MediumItalic.eot");
+  src: url("font/Roboto-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("font/Roboto-MediumItalic.woff2") format("woff2"),
+    url("font/Roboto-MediumItalic.woff") format("woff"),
+    url("font/Roboto-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+:root {
+  --font-family: "Roboto";
+  font-family: var(--font-family);
+  --lightestcolor: white;
+  --lightcolor: #a6a8ad;
+  --activitycolor: #0033ff;
+  --darkcolor: #121214;
+  --darkestcolor: black;
+
+  --smalestfont: 0.75rem;
+  --smallfont: 0.875rem;
+  --regularfont: 1rem;
+  --biggerfont: 1.25rem;
+  --largefont: 1.5rem;
+  --bigfont: 1.75rem;
+  --hugefont: 3.375rem;
+  --biggestfont: 4.5rem;
+}
+
+* {
+  font-family: var(--font-family);
+  margin: 0;
+}
+p.regularfont {
+  line-height: 1.5em;
+}
+.smallestfont {
+  font-size: var(--smalestfont);
+}
+.smallfont {
+  font-size: var(--smallfont);
+}
+.regularfont {
+  font-size: var(--regularfont);
+}
+.biggerfont {
+  font-size: var(--biggerfont);
+}
+.bigfont {
+  font-size: var(--bigfont);
+}
+.hugefont {
+  font-size: var(--hugefont);
+}
+.biggestfont {
+  font-size: var(--biggestfont);
+}
+.lightestcolorfont {
+  color: var(--lightestcolor);
+}
+.lightestcolorfill {
+  background-color: var(--lightestcolor);
+}
+.lightcolorfont {
+  color: var(--lightcolor);
+}
+.lightcolorfill {
+  background-color: var(--lightcolor);
+}
+.activitycolorfont {
+  color: var(--activitycolor);
+}
+.activitycolorfill {
+  background-color: var(--activitycolor);
+}
+.darkcolorfont {
+  color: var(--darkcolor);
+}
+.darkcolorfill {
+  background-color: var(--darkcolor);
+}
+.darkestcolorfont {
+  color: var(--darkestcolor);
+}
+.darkestcolorfill {
+  background-color: var(--darkestcolor);
+}
+.largefont {
+  font-size: var(--largefont);
+}
+header {
+  display: grid;
+  grid-template-columns: min-content auto max-content;
+  align-items: center;
+  height: 70px;
+  grid-gap: 10px;
+}
+header > img {
+  margin: 20px;
+  height: 35%;
+
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+  color: var(--lightcolor);
+}
+li {
+  font-size: var(--regularfont);
+  padding: 0.625em;
+  display: inline-block;
+}
+.loginblock {
+  display: grid;
+  grid-template-columns: min-content max-content;
+  margin: 0 23px;
+}
+.loginblock > button:nth-child(1) {
+  background-color: transparent;
+  color: var(--lightcolor);
+  border: none;
+  padding: 20px;
+  font-size: var(--regularfont);
+}
+.loginblock > button:nth-child(2) {
+  background-color: var(--lightestcolor);
+  color: var(--darkestcolor);
+  border-radius: 2rem;
+  height: min-content;
+  align-self: center;
+  padding: 8px 20px;
+  font-size: var(--regularfont);
+}
+.offer {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--activitycolor);
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.offer > button {
+  padding: 1.2rem;
+  font-size: var(--regularfont);
+}
+.firstblock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: url("images/IMAGE\ \(1\).png");
+  background-size: cover;
+  height: clamp(500px, 62vw, 85vh);
+}
+.buttonstyle {
+  border-radius: 8px;
+  font-size: var(--largefont);
+  color: var(--lightestcolor);
+  background-color: var(--activitycolor);
+  border: none;
+  padding: 16px 32px;
+  margin: 25px 0;
+}
+.firstblock > div.content > *:nth-child(1) {
+  margin-bottom: 2rem;
+  max-width: 26rem;
+}
+.firstblock > div.content > *:nth-child(2) {
+  margin-bottom: 4rem;
+  max-width: 26rem;
+}
+div.content {
+  margin: 0 48px;
+}
+div.secondblock {
+  background-color: var(--darkcolor);
+}
+div.secondblock > div.content {
+  align-items: center;
+}
+div.secondblock > div.content > div {
+  padding: 3rem 0;
+  display: flex;
+  align-items: center;
+}
+div.secondblock > div.content > div > div {
+  width: -webkit-fill-available;
+}
+div.secondblock > div.content > div > div > img {
+  width: 100%;
+}
+.leftside {
+  align-items: flex-start;
+  margin-right: 6.25rem;
+  text-align: left;
+}
+.rightside {
+  align-items: flex-end;
+  margin-left: 6.25rem;
+  text-align: right;
+}
+p {
+  margin-bottom: 0.42em;
+}
+div.creatorsdiv {
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+div.creatorsdiv > p {
+  align-self: flex-start;
+  margin-bottom: 1rem;
+}
+div.creatorsdiv > div.creators {
+  display: grid;
+  grid-gap: 11px;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow-x: auto;
+  width: 100%;
+}
+div.creator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: var(--lightestcolor);
+  border-radius: 8px;
+  text-align: left;
+  padding: 30px;
+}
+div.creator > img {
+  height: 50%;
+  align-self: center;
+  aspect-ratio: 1/1;
+  margin-bottom: 30px;
+  border-radius: 100%;
+}
+.thirdblock {
+  height: clamp(500px, 62vw, 85vh);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("images/IMAGE\ \(9\).png");
+  background-size: cover;
+}
+.thirdblock > p {
+  margin-bottom: 1.22rem;
+}
+footer {
+  background-color: var(--darkcolor);
+  padding: 3rem 0 3.75rem 0;
+}
+div.footer_nav {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+div.menu_title,
+div.menu_title > p {
+  margin-bottom: 0.75rem;
+}
+p > a.biggerfont {
+  margin-bottom: 0.6em;
+}
+a {
+  text-decoration: none;
+  margin-bottom: 1em;
+}
+div.terms {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+div.terms > p {
+  margin-right: 1.5rem;
+  margin-bottom: 0;
+}
+div.terms > p > a,
+div.terms > a {
+  font-size: var(--smalestfont);
+  color: var(--lightcolor);
+  margin: 0;
+}
+@media screen and (max-width: 960px) {
+   html
+  {
+    font-size: 12.8px;
+  }
+}
+@media screen and (max-width: 768px) {
+  
+  div.offer
+  {
+  height: 50px;
+  }
+  html
+  {
+    font-size: 8.5px;
+  }
+  div.footer_nav {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  div.terms {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  div.terms > p:nth-child(1) {
+    width: 100%;
+    text-align: center;
+  }
+  header {
+    height: 50px;
+    grid-gap: 5px;
+  }
+  header > img {
+    margin: 8.5px;
+  }
+  .loginblock {
+    margin: 0 10px;
+  }
+  .loginblock > button:nth-child(1) {
+    padding: 8px;
+  }
+  .loginblock > button:nth-child(2) {
+    border-radius: 2em;
+    padding: 8px;
+  }
+  div.content {
+    margin: 0 20px;
+  }
+  li {
+    font-size: var(--smallfont);
+  }
+  .buttonstyle {
+    padding: 8px;
+  }
+  div.menu_title,
+  div.menu_title > p {
+    margin-bottom: 0;
+  }
+  div.terms > p
+  {
+    padding: 5px 0 ;
+  }
+  div.terms > p>a, div.terms > p
+  {
+    font-size: var(--smalestfont);
+  }
+}
